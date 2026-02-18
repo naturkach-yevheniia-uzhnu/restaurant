@@ -1,15 +1,16 @@
+import Link from "next/link";
 export default function AboutPage() {
   return (
     <div className="min-h-screen bg-gray-50">
       {/* Hero */}
       <section className="bg-gradient-to-r from-blue-900 to-blue-300 text-white py-20">
         <div className="container mx-auto px-4 text-center">
-          <a
+          <Link
             href="/"
             className="absolute top-0 right-[2em] inline-block mt-4 text-white hover:text-gray-200"
           >
             На головну ←
-          </a>
+          </Link>
           <h1 className="text-5xl font-bold mb-4">Про систему</h1>
           <p className="text-xl opacity-90 max-w-2xl mx-auto">
             Ця система створена для онлайн-бронювання столів у ресторані. Вона

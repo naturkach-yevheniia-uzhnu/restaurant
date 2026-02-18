@@ -1,16 +1,17 @@
+import Link from "next/link";
+
 export default function Home() {
   return (
     <div className="min-h-screen">
       {/* Hero секція */}
       <section className="bg-gradient-to-r from-blue-900 to-blue-300 text-white py-20">
         <div className="container mx-auto px-4 text-center">
-          <a
+          <Link
             href="/about"
             className="absolute top-0 right-[2em] inline-block mt-4 text-white hover:text-gray-200"
           >
             Про систему →
-          </a>
-
+          </Link>
           <h1 className="text-5xl font-bold mb-4">
             Ресторан — система бронювання столів
           </h1>
